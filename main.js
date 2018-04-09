@@ -1,3 +1,3 @@
 new List('goods', {
-    valueNames: ['name']
+    valueNames: ['name', 'type']
 });
