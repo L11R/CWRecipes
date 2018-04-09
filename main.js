@@ -1,5 +1,5 @@
 new List('goods', {
-    valueNames: ['name', 'type']
+    valueNames: ['name', 'id', 'type']
 });
 
 const clipboard = new ClipboardJS('.btn');
