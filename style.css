@@ -2,13 +2,18 @@
     font-family: sans-serif;
 }
 
-span {
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.full-width {
     display: block;
     overflow: hidden;
     padding-right: 30px;
 }
 
-input {
+.search {
     width: 100%;
 
     padding: 7px 14px;
@@ -19,39 +24,9 @@ input {
     border: solid 1px #ccc;
     border-radius: 5px;
 }
-input:focus {
+.search:focus {
     outline: none;
     border-color: #aaa;
-}
-
-.btn {
-    margin: 10px 10px;
-}
-
-.copied {
-    display: inline-block;
-    visibility: hidden;
-
-    font-family: sans-serif;
-    font-size: 14px;
-    color: green;
-}
-
-.about {
-    height: 14px;
-
-    padding: 0 10px;
-}
-
-h2 {
-    font-family: sans-serif;
-    margin:0 0 0.3rem;
-}
-
-p {
-    font-family: sans-serif;
-    font-size: 14px;
-    margin: 0;
 }
 
 .list {
@@ -68,6 +43,7 @@ p {
 
 .name {
     display: inline-block;
+    margin: 0 0 0.3rem;
 }
 
 .stats {
@@ -82,4 +58,22 @@ p {
 
     margin: 0;
     padding: 0 0 0;
+}
+
+.btn {
+    margin: 10px 10px;
+}
+
+.copied {
+    display: inline-block;
+    visibility: hidden;
+
+    font-size: 14px;
+    color: green;
+}
+
+.about {
+    height: 14px;
+
+    padding: 0 10px;
 }
