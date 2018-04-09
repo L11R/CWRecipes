@@ -20,11 +20,23 @@ input:focus {
     border-color: #aaa;
 }
 
-#about {
+.btn {
+    margin: 10px 10px;
+}
+
+.copied {
+    display: inline-block;
+    visibility: hidden;
+
+    font-family: sans-serif;
+    font-size: 14px;
+    color: green;
+}
+
+.about {
     height: 14px;
 
     padding: 0 10px;
-    margin-top: 10px;
 }
 
 h2 {
