@@ -1,3 +1,5 @@
+$('.search').focus();
+
 new List('goods', {
     valueNames: ['name', 'id', 'type']
 });
